@@ -17,8 +17,8 @@
 
   font-size: 16px;
   line-height: 1.5;
-  color: rgb(55, 53, 47);
-  caret-color: rgb(55, 53, 47);
+  color: rgb(255, 255, 255);
+  caret-color: rgb(255, 255, 255);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
     'Apple Color Emoji', Arial, sans-serif, 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
@@ -28,7 +28,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  color: rgba(55, 53, 47, 0.4);
+  color: rgb(249, 248, 245);
 }
 
 .main {
@@ -110,7 +110,7 @@
 }
 
 .newsletter:hover {
-  color: #777777;
+  color: #ffffff;
 }
 
 .comments {
