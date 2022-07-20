@@ -4,15 +4,16 @@
   align-items: center;
   text-align: center;
   color: var(--fg-color);
+  
 }
 
 .action {
   position: relative;
-  border-radius: 50%;
-  border: 2px solid var(--fg-color-6);
+  border-radius: 10%;
+  border: 0px solid var(--fg-color-6);
   transition: all 300ms ease-out;
-  width: 3.5em;
-  height: 3.5em;
+  width: 2.5em;
+  height: 2.5em;
   margin: 0 0 1em;
   display: flex;
   flex-direction: column;
@@ -21,6 +22,7 @@
   text-decoration: none !important;
   user-select: none;
   cursor: pointer;
+  
 }
 
 .action:last-child {
@@ -38,12 +40,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .actionBg svg {
   width: 50%;
   height: 50%;
   fill: var(--fg-color-6);
+  
 }
 
 .actionBgPane {
@@ -51,21 +55,27 @@
   border-radius: 50%;
   width: 0;
   height: 0;
+  
+  
 }
 
 .action:hover {
   transition: all 100ms ease-out;
+  
 }
 
 .action:hover .actionBgPane {
   width: 100%;
   height: 100%;
   transition: all 100ms ease-out;
+  
 }
 
 .action:hover svg {
   transition: fill 100ms ease-out;
-  fill: var(--bg-color);
+  fill: var(--bg-color-);
+  
+  
 }
 
 :global(.dark-mode) .action:hover svg {
@@ -80,24 +90,24 @@
 }
 
 .twitter .actionBgPane {
-  background: #2795e9;
+  background: #ffffff;
 }
 .twitter:hover {
   border-color: #2795e9;
 }
 
 .linkedin .actionBgPane {
-  background: #0077b5;
+  background: #ffffff;
 }
 .linkedin:hover {
   border-color: #0077b5;
 }
 
 .github .actionBgPane {
-  background: #c9510c;
+  background: #fcfcfc;
 }
 .github:hover {
-  border-color: #c9510c;
+  border-color: #ffffff;
 }
 
 .youtube .actionBgPane {
