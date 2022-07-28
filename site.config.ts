@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Lucas Pita',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'UX UX designer Lucas Pita',
 
   // social usernames (optional)
   twitter: 'cigsafterher_',
